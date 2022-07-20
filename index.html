@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>TODO</title>
+  </head>
+  <body>
+    <h1>TODO</h1>
+    <div
+      style="
+        background-color: gold;
+        width: 100%;
+        display: flex;
+        position: fixed;
+        top: 0;
+        transition: all 0.3s ease;
+        right: -100%;
+      "
+      class="alert"
+      id="alert"
+    >
+      <p>simple alert for test purposes</p>
+      <!-- comment -->
+      <button id="close-alert">X</button>
+    </div>
+    <form>
+      <input type="text" id="title" placeholder="title" />
+      <textarea
+        name=""
+        id="desc"
+        placeholder="do something"
+        rows="10"
+      ></textarea>
+      <button id="submit">submit</button>
+    </form>
+    <hr />
+    <ul id="main">
+      <li class="list-item">
+        <h3>title test</h3>
+        <p>desc test</p>
+      </li>
+    </ul>
+    <script type="module" src="./index.js"></script>
+  </body>
+</html>
